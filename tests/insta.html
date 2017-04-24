@@ -24,6 +24,7 @@
       line-height: 20px;
     }
   </style>
+  <script type="text/javascript" src="../insta/instafeed.min.js"></script>
 
 </head>
 <body>
@@ -33,6 +34,15 @@
   
  <h1>instafeed</h1> 
   
- <script type="text/javascript" src="../insta/instafeed.min.js"></script>
+ 
+  
+  <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: 'YOUR_CLIENT_ID'
+    });
+    feed.run();
+</script>
 </body>
 </html>
