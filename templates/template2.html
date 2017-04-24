@@ -1,0 +1,157 @@
+<!DOCTYPE html5>
+<html>
+<title>Template 2</title>
+<head></head>
+
+<body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<!--Variables-->
+<script>
+var groomFirstName = "John";
+var groomSecondName = "Smith";
+var brideFirstName = "Jane";
+var brideSecondName = "Dough";
+
+var phone = "07564918752";
+var email = "john.alias@gmail.com";
+
+var event1 = "Nikah";
+var venue1 = "Devonshire Rd Mosque";
+var date1 = "14/05/2017";
+
+var event2 = "Walima";
+var venue2 = "The Crescent Bolton";
+var date2 = "15/05/2017";
+
+var event3 = "Wedding";
+var venue3 = "The Crescent Bolton";
+var date3 = "17/05/2017";
+
+var title = "Inbytes welcomes you to the matrimony of <br>John Smith and Jane Dough";
+var subtitle = "The Family of John Smith and Jane Dough would like you to join them in celebrating the new connection between John and Jane";
+var text = "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.";
+
+</script>
+<!--End Variables-->
+
+<body  style="background-color: #c3aa7a">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="..//pics/venue.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container ">
+            <h2 style="color: white">Inbytes</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <h3>All the details</h3>
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large" style="color: #582d37"></i><script>document.write(event1)</script></p>
+          <p><i class="fa fa-globe fa-fw w3-margin-right w3-large " style="color: #582d37"></i><script>document.write(venue1)</script></p>
+          <p><i class="fa fa-calendar fa-fw w3-margin-right w3-large" style="color: #582d37"></i><script>document.write(date1)</script></p><br>
+
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large" style="color: #582d37"></i><script>document.write(event2)</script></p>
+          <p><i class="fa fa-globe fa-fw w3-margin-right w3-large" style="color: #582d37"></i><script>document.write(venue2)</script></p>
+          <p><i class="fa fa-calendar fa-fw w3-margin-right w3-large" style="color: #582d37"></i><script>document.write(date2)</script></p><br>
+
+          <p><i class="fa fa-certificate fa-fw w3-margin-right w3-large" style="color: #582d37"></i><script>document.write(event3)</script></p>
+          <p><i class="fa fa-globe fa-fw w3-margin-right w3-large" style="color: #582d37"></i><script>document.write(venue3)</script></p>
+          <p><i class="fa fa-calendar fa-fw w3-margin-right w3-large" style="color: #582d37"></i><script>document.write(date3)</script></p>
+          <h4>Contact the Bride and Groom</h4>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large" style="color: #582d37"></i><script>document.write(phone)</script></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large" style="color: #582d37"></i><script>document.write(email)</script></p>
+          <hr>
+
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <h1 class="w3-text-black w3-padding-16 w3-center"><script>document.write(title)</script></h1>
+        <div class="w3-container">
+          <h3 class="w3-opacity w3-center w3-text-grey"><b><script>document.write(subtitle)</script></b></h3>
+          <p><script>document.write(text)</script></p>
+          <hr style="color: white">
+        </div>
+      </div>
+	<!-- RSVP section -->
+      <div class="w3-container w3-card-2 w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge" style="color: #582d37"></i>RSVP</h2>
+
+      
+	<div class="w3-container w3-padding-64 w3-center w3-wide" id="rsvp">
+	  <h1>HOPE YOU CAN MAKE IT!</h1>
+	  <p class="w3-large">Kindly Respond By March, 2017</p>
+	  <p class="w3-xlarge">
+	    <button onclick="document.getElementById('id01').style.display='block'" style="padding:8px 60px ;background-color:#582d37 ; color: white" class="w3-button w3-round w3-hover-opacity-off" >RSVP</button>
+	  </p>
+	</div>
+
+	<!-- RSVP modal -->
+	<div id="id01" class="w3-modal">
+	  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+	    <div class="w3-container w3-white w3-center">
+	      <h1 class="w3-wide">CAN YOU COME?</h1>
+	      <p>We really hope you can make it.</p>
+	      <form>
+	        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+	      </form>
+	      <p><i>Sincerely, <script>document.write(groomFirstName)</script> &amp; <script>document.write(brideFirstName)</script></i></p>
+	      <div class="w3-row">
+	        <div class="w3-half">
+	          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+	        </div>
+	        <div class="w3-half">
+	          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+
+  <footer class="w3-margin-top w3-card-4" style="background-color: #582d37">
+    <div class="w3-center">
+      <hr class="w3-opacity">
+      <p>If you want to get an Inbyte of your own <br> You can find me on social media.</p>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <p>Powered by <a href="https://github.com/zbzbzbzb" target="_blank" class="w3-hover-text-green">ZFB Industries and Github</a></p>
+      <hr class="w3-opacity">
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
