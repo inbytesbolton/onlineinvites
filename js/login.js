@@ -1,4 +1,4 @@
-('.toggle').on('click', function() {
+$('.toggle').on('click', function() {
   $('.container').stop().addClass('active');
 });
 
